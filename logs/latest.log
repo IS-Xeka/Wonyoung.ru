@@ -1,0 +1,90 @@
+[14:58:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.4+8-LTS-274; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[14:58:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-17-main@dbc367b (2025-07-26T21:53:33Z) for Minecraft 1.21.8
+[14:58:46] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[14:58:46] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[14:58:46] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[14:58:46] [ServerMain/INFO]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[14:58:48] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[14:58:49] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:58:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[14:58:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:59:00] [ServerMain/INFO]: Loaded 1407 recipes
+[14:59:00] [ServerMain/INFO]: Loaded 1520 advancements
+[14:59:00] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[14:59:01] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 558,7ms
+[14:59:01] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[14:59:01] [Server thread/INFO]: Loading properties
+[14:59:01] [Server thread/INFO]: This server is running Paper version 1.21.8-17-main@dbc367b (2025-07-26T21:53:33Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[14:59:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:59:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:59:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:59:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[14:59:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:59:03] [Server thread/INFO]: Default game type: SURVIVAL
+[14:59:03] [Server thread/INFO]: Generating keypair
+[14:59:03] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[14:59:03] [Server thread/INFO]: Using default channel type
+[14:59:03] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:59:03] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:59:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:59:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:59:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:59:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:59:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:59:03] [Server thread/INFO]: Preparing level "world"
+[14:59:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:59:04] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:04] [Server thread/INFO]: Preparing spawn area: 8%
+[14:59:05] [Server thread/INFO]: Preparing spawn area: 10%
+[14:59:05] [Server thread/INFO]: Time elapsed: 1400 ms
+[14:59:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:59:05] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:05] [Server thread/INFO]: Time elapsed: 298 ms
+[14:59:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:59:05] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:06] [Server thread/INFO]: Time elapsed: 217 ms
+[14:59:06] [Server thread/INFO]: [spark] Starting background profiler...
+[14:59:06] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[14:59:06] [Server thread/INFO]: Done preparing level "world" (2.982s)
+[14:59:06] [Server thread/INFO]: Running delayed init tasks
+[14:59:06] [Server thread/INFO]: Done (22.566s)! For help, type "help"
+[14:59:27] [User Authenticator #0/INFO]: UUID of player Ish_Ron is e208a3a3-50ad-39d9-8e50-41a2ba70091e
+[14:59:28] [Server thread/INFO]: Ish_Ron joined the game
+[14:59:28] [Server thread/INFO]: Ish_Ron[/127.0.0.1:53786] logged in with entity id 22 at ([world]94.43898399710226, 128.74313571217965, 64.03490888490728)
+[14:59:40] [Server thread/INFO]: Ish_Ron lost connection: Disconnected
+[14:59:40] [Server thread/INFO]: Ish_Ron left the game
+[14:59:46] [Server thread/INFO]: Unknown or incomplete command, see below for error
+STOP<--[HERE]
+[14:59:49] [Server thread/INFO]: Stopping the server
+[14:59:49] [Server thread/INFO]: Stopping server
+[14:59:49] [Server thread/INFO]: Saving players
+[14:59:49] [Server thread/INFO]: Saving worlds
+[14:59:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:59:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:59:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:59:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Saved 274 block chunks, 274 entity chunks, 0 poi chunks in world 'world' in 0,83s
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[14:59:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,06s
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[14:59:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0,03s
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[14:59:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[14:59:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:59:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:59:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:59:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:59:50] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[14:59:50] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[14:59:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[14:59:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
